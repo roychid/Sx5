@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0d0b" />
+  <title>SX5</title>
+  <meta name="description" content="SX5 — pick five, battle football." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-route="home" aria-label="SX5 home">
+        <span class="brand-mark">SX5</span>
+        <span class="brand-sub">FIVE-A-SIDE FANTASY</span>
+      </button>
+      <button class="icon-btn" id="refreshBtn" aria-label="Refresh data" title="Refresh data">↻</button>
+    </header>
+
+    <main id="app" aria-live="polite">
+      <section class="loading-screen">
+        <div class="spinner"></div>
+        <p>Loading SX5…</p>
+      </section>
+    </main>
+
+    <nav class="bottom-nav" aria-label="SX5 navigation">
+      <button class="nav-item active" data-route="home">
+        <span class="nav-icon">⌂</span><span>Home</span>
+      </button>
+      <button class="nav-item" data-route="league">
+        <span class="nav-icon">◆</span><span>League</span>
+      </button>
+      <button class="nav-item" data-route="how">
+        <span class="nav-icon">5</span><span>How to play</span>
+      </button>
+    </nav>
+  </div>
+
+  <dialog id="teamDialog" class="team-dialog">
+    <div class="dialog-shell">
+      <header class="dialog-header">
+        <button id="closeTeamDialog" class="icon-btn" aria-label="Close">←</button>
+        <div id="dialogTitle"></div>
+        <span class="dialog-spacer"></span>
+      </header>
+      <div id="teamDialogBody" class="dialog-body"></div>
+    </div>
+  </dialog>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
