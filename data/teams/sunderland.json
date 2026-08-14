@@ -1,0 +1,768 @@
+{
+  "competition": {
+    "id": 17,
+    "name": "Premier League",
+    "slug": "premier-league",
+    "countryCode": "ENG"
+  },
+  "season": {
+    "id": 202627,
+    "key": "2026-27",
+    "name": "2026/27",
+    "startYear": 2026,
+    "endYear": 2027
+  },
+  "team": {
+    "id": 41,
+    "code": "SUN",
+    "name": "Sunderland",
+    "shortName": "Sunderland",
+    "slug": "sunderland",
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#ca0000",
+    "textColor": "#ca0000",
+    "providerTeamId": 41,
+    "logoUrl": null,
+    "playerCount": 38
+  },
+  "players": [
+    {
+      "id": 877980,
+      "providerPlayerId": 877980,
+      "name": "Wilson Isidor",
+      "shortName": "W. Isidor",
+      "slug": "wilson-isidor",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "ST",
+        "LW"
+      ],
+      "shirtNumber": 18,
+      "dateOfBirth": "2000-08-27T00:00:00+00:00",
+      "nationalityAlpha2": "HT",
+      "nationalityAlpha3": "HTI",
+      "preferredFoot": "Right",
+      "heightCm": 184,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 910048,
+      "providerPlayerId": 910048,
+      "name": "Brian Brobbey",
+      "shortName": "B. Brobbey",
+      "slug": "brian-brobbey",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "ST"
+      ],
+      "shirtNumber": 9,
+      "dateOfBirth": "2002-02-01T00:00:00+00:00",
+      "nationalityAlpha2": "NL",
+      "nationalityAlpha3": "NLD",
+      "preferredFoot": "Right",
+      "heightCm": 180,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1442017,
+      "providerPlayerId": 1442017,
+      "name": "Ahmed Abdullahi",
+      "shortName": "A. Abdullahi",
+      "slug": "abdullahi-ahmed",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "ST"
+      ],
+      "shirtNumber": 29,
+      "dateOfBirth": "2004-06-19T00:00:00+00:00",
+      "nationalityAlpha2": "NG",
+      "nationalityAlpha3": "NGA",
+      "preferredFoot": "Right",
+      "heightCm": 181,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1094440,
+      "providerPlayerId": 1094440,
+      "name": "Romaine Mundle",
+      "shortName": "R. Mundle",
+      "slug": "mundle-romaine",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "LW"
+      ],
+      "shirtNumber": 14,
+      "dateOfBirth": "2003-04-24T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 177,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1115751,
+      "providerPlayerId": 1115751,
+      "name": "Luís Semedo",
+      "shortName": "L. Semedo",
+      "slug": "luis-semedo",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "ST"
+      ],
+      "shirtNumber": 9,
+      "dateOfBirth": "2003-08-11T00:00:00+00:00",
+      "nationalityAlpha2": "PT",
+      "nationalityAlpha3": "PRT",
+      "preferredFoot": "Right",
+      "heightCm": 192,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1899473,
+      "providerPlayerId": 1899473,
+      "name": "Finn Geragusyan",
+      "shortName": "F. Geragusyan",
+      "slug": "fin-geragusian",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "ST"
+      ],
+      "shirtNumber": 74,
+      "dateOfBirth": "2008-01-01T00:00:00+00:00",
+      "nationalityAlpha2": "AM",
+      "nationalityAlpha3": "ARM",
+      "preferredFoot": "Left",
+      "heightCm": 191,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1899472,
+      "providerPlayerId": 1899472,
+      "name": "Felix Scott",
+      "shortName": "F. Scott",
+      "slug": "felix-scott",
+      "positionGroup": "F",
+      "detailedPositions": [
+        "LW"
+      ],
+      "shirtNumber": 11,
+      "dateOfBirth": "2007-12-17T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": null,
+      "heightCm": null,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1110842,
+      "providerPlayerId": 1110842,
+      "name": "Simon Adingra",
+      "shortName": "S. Adingra",
+      "slug": "simon-adingra",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "LW",
+        "RW"
+      ],
+      "shirtNumber": 24,
+      "dateOfBirth": "2002-01-01T00:00:00+00:00",
+      "nationalityAlpha2": "CI",
+      "nationalityAlpha3": "CIV",
+      "preferredFoot": "Right",
+      "heightCm": 175,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 117777,
+      "providerPlayerId": 117777,
+      "name": "Granit Xhaka",
+      "shortName": "G. Xhaka",
+      "slug": "granit-xhaka",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "DM"
+      ],
+      "shirtNumber": 34,
+      "dateOfBirth": "1992-09-27T00:00:00+00:00",
+      "nationalityAlpha2": "CH",
+      "nationalityAlpha3": "CHE",
+      "preferredFoot": "Left",
+      "heightCm": 185,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1142675,
+      "providerPlayerId": 1142675,
+      "name": "Chemsdine Talbi",
+      "shortName": "C. Talbi",
+      "slug": "chemsdine-talbi",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "RW"
+      ],
+      "shirtNumber": 7,
+      "dateOfBirth": "2005-05-09T00:00:00+00:00",
+      "nationalityAlpha2": "MA",
+      "nationalityAlpha3": "MAR",
+      "preferredFoot": "Right",
+      "heightCm": 175,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1171539,
+      "providerPlayerId": 1171539,
+      "name": "Noah Sadiki",
+      "shortName": "N. Sadiki",
+      "slug": "noah-sadiki",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "DM"
+      ],
+      "shirtNumber": 27,
+      "dateOfBirth": "2004-12-17T00:00:00+00:00",
+      "nationalityAlpha2": "CD",
+      "nationalityAlpha3": "COD",
+      "preferredFoot": "Right",
+      "heightCm": 173,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1128532,
+      "providerPlayerId": 1128532,
+      "name": "Habib Diarra",
+      "shortName": "H. Diarra",
+      "slug": "habib-diarra",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "AM"
+      ],
+      "shirtNumber": 19,
+      "dateOfBirth": "2004-01-03T00:00:00+00:00",
+      "nationalityAlpha2": "SN",
+      "nationalityAlpha3": "SEN",
+      "preferredFoot": "Right",
+      "heightCm": 179,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1116571,
+      "providerPlayerId": 1116571,
+      "name": "Nilson Angulo",
+      "shortName": "N. Angulo",
+      "slug": "nilson-angulo",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "LW"
+      ],
+      "shirtNumber": 10,
+      "dateOfBirth": "2003-06-19T00:00:00+00:00",
+      "nationalityAlpha2": "EC",
+      "nationalityAlpha3": "ECU",
+      "preferredFoot": "Right",
+      "heightCm": 182,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 984014,
+      "providerPlayerId": 984014,
+      "name": "Enzo Le Fée",
+      "shortName": "E. Le Fée",
+      "slug": "enzo-le-fee",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "DM",
+        "AM"
+      ],
+      "shirtNumber": 28,
+      "dateOfBirth": "2000-02-03T00:00:00+00:00",
+      "nationalityAlpha2": "FR",
+      "nationalityAlpha3": "FRA",
+      "preferredFoot": "Right",
+      "heightCm": 173,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1394089,
+      "providerPlayerId": 1394089,
+      "name": "Chris Rigg",
+      "shortName": "C. Rigg",
+      "slug": "chris-rigg",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "AM"
+      ],
+      "shirtNumber": 11,
+      "dateOfBirth": "2007-06-18T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Left",
+      "heightCm": 177,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 2138729,
+      "providerPlayerId": 2138729,
+      "name": "Jocelin Ta Bi",
+      "shortName": "J. T. Bi",
+      "slug": "jocelin-ta-bi",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "RW"
+      ],
+      "shirtNumber": 37,
+      "dateOfBirth": "2005-02-09T00:00:00+00:00",
+      "nationalityAlpha2": "CI",
+      "nationalityAlpha3": "CIV",
+      "preferredFoot": "Left",
+      "heightCm": 175,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1000139,
+      "providerPlayerId": 1000139,
+      "name": "Abdoullah Ba",
+      "shortName": "A. Ba",
+      "slug": "abdoullah-ba",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC"
+      ],
+      "shirtNumber": 46,
+      "dateOfBirth": "2003-07-31T00:00:00+00:00",
+      "nationalityAlpha2": "FR",
+      "nationalityAlpha3": "FRA",
+      "preferredFoot": "Both",
+      "heightCm": 180,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 247459,
+      "providerPlayerId": 247459,
+      "name": "Alan Browne",
+      "shortName": "A. Browne",
+      "slug": "alan-browne",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "DM",
+        "AM"
+      ],
+      "shirtNumber": 16,
+      "dateOfBirth": "1995-04-15T00:00:00+00:00",
+      "nationalityAlpha2": "IE",
+      "nationalityAlpha3": "IRL",
+      "preferredFoot": "Right",
+      "heightCm": 179,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1891914,
+      "providerPlayerId": 1891914,
+      "name": "Jaydon Jones",
+      "shortName": "J. Jones",
+      "slug": "jaydon-jones",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC",
+        "DM"
+      ],
+      "shirtNumber": 52,
+      "dateOfBirth": "2006-11-03T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 175,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1805616,
+      "providerPlayerId": 1805616,
+      "name": "Jack Whittaker",
+      "shortName": "J. Whittaker",
+      "slug": "jack-whittaker",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "AM"
+      ],
+      "shirtNumber": 53,
+      "dateOfBirth": "2006-10-14T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 178,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 2029595,
+      "providerPlayerId": 2029595,
+      "name": "Tom Proctor",
+      "shortName": "T. Proctor",
+      "slug": "tom-proctor",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC"
+      ],
+      "shirtNumber": 9,
+      "dateOfBirth": null,
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": null,
+      "heightCm": null,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1899466,
+      "providerPlayerId": 1899466,
+      "name": "Charlie Dinsdale",
+      "shortName": "C. Dinsdale",
+      "slug": "charlie-dinsdale",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "MC"
+      ],
+      "shirtNumber": 7,
+      "dateOfBirth": "2007-09-12T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": null,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1899444,
+      "providerPlayerId": 1899444,
+      "name": "Archie Lightfoot",
+      "shortName": "A. Lightfoot",
+      "slug": "archie-lightfoot",
+      "positionGroup": "M",
+      "detailedPositions": [
+        "DL"
+      ],
+      "shirtNumber": 3,
+      "dateOfBirth": null,
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": null,
+      "heightCm": null,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 831424,
+      "providerPlayerId": 831424,
+      "name": "Reinildo Mandava",
+      "shortName": "R. Mandava",
+      "slug": "reinildo-mandava",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DL",
+        "DC"
+      ],
+      "shirtNumber": 17,
+      "dateOfBirth": "1994-01-21T00:00:00+00:00",
+      "nationalityAlpha2": "MZ",
+      "nationalityAlpha3": "MOZ",
+      "preferredFoot": "Left",
+      "heightCm": 180,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 174975,
+      "providerPlayerId": 174975,
+      "name": "Arthur Masuaku",
+      "shortName": "A. Masuaku",
+      "slug": "arthur-masuaku",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DL"
+      ],
+      "shirtNumber": 26,
+      "dateOfBirth": "1993-11-07T00:00:00+00:00",
+      "nationalityAlpha2": "CD",
+      "nationalityAlpha3": "COD",
+      "preferredFoot": "Left",
+      "heightCm": 179,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 805137,
+      "providerPlayerId": 805137,
+      "name": "Omar Alderete",
+      "shortName": "O. Alderete",
+      "slug": "omar-alderete",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DC"
+      ],
+      "shirtNumber": 15,
+      "dateOfBirth": "1996-12-26T00:00:00+00:00",
+      "nationalityAlpha2": "PY",
+      "nationalityAlpha3": "PRY",
+      "preferredFoot": "Left",
+      "heightCm": 187,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 780014,
+      "providerPlayerId": 780014,
+      "name": "Nordi Mukiele",
+      "shortName": "N. Mukiele",
+      "slug": "nordi-mukiele",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DR",
+        "DC",
+        "MR"
+      ],
+      "shirtNumber": 20,
+      "dateOfBirth": "1997-11-01T00:00:00+00:00",
+      "nationalityAlpha2": "FR",
+      "nationalityAlpha3": "FRA",
+      "preferredFoot": "Right",
+      "heightCm": 185,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 958878,
+      "providerPlayerId": 958878,
+      "name": "Daniel Ballard",
+      "shortName": "D. Ballard",
+      "slug": "daniel-ballard",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DC"
+      ],
+      "shirtNumber": 5,
+      "dateOfBirth": "1999-09-22T00:00:00+00:00",
+      "nationalityAlpha2": "NX",
+      "nationalityAlpha3": "NIR",
+      "preferredFoot": "Right",
+      "heightCm": 187,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 128587,
+      "providerPlayerId": 128587,
+      "name": "Thomas Meunier",
+      "shortName": "T. Meunier",
+      "slug": "thomas-meunier",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DR"
+      ],
+      "shirtNumber": null,
+      "dateOfBirth": "1991-09-12T00:00:00+00:00",
+      "nationalityAlpha2": "BE",
+      "nationalityAlpha3": "BEL",
+      "preferredFoot": "Right",
+      "heightCm": 190,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 989034,
+      "providerPlayerId": 989034,
+      "name": "Trai Hume",
+      "shortName": "T. Hume",
+      "slug": "hume-trai",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DR"
+      ],
+      "shirtNumber": 32,
+      "dateOfBirth": "2002-03-18T00:00:00+00:00",
+      "nationalityAlpha2": "NX",
+      "nationalityAlpha3": "NIR",
+      "preferredFoot": "Right",
+      "heightCm": 180,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1088897,
+      "providerPlayerId": 1088897,
+      "name": "Jenson Seelt",
+      "shortName": "J. Seelt",
+      "slug": "jenson-seelt",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DC"
+      ],
+      "shirtNumber": 23,
+      "dateOfBirth": "2003-05-23T00:00:00+00:00",
+      "nationalityAlpha2": "NL",
+      "nationalityAlpha3": "NLD",
+      "preferredFoot": "Right",
+      "heightCm": 192,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 365812,
+      "providerPlayerId": 365812,
+      "name": "Luke O'Nien",
+      "shortName": "L. O'Nien",
+      "slug": "luke-onien",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DC"
+      ],
+      "shirtNumber": 13,
+      "dateOfBirth": "1994-11-21T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 174,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1097848,
+      "providerPlayerId": 1097848,
+      "name": "Leo Fuhr Hjelde",
+      "shortName": "L. F. Hjelde",
+      "slug": "leo-fuhr-hjelde",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DL",
+        "DC"
+      ],
+      "shirtNumber": 33,
+      "dateOfBirth": "2003-08-26T00:00:00+00:00",
+      "nationalityAlpha2": "NO",
+      "nationalityAlpha3": "NOR",
+      "preferredFoot": "Left",
+      "heightCm": 188,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 934228,
+      "providerPlayerId": 934228,
+      "name": "Aji Alese",
+      "shortName": "A. Alese",
+      "slug": "aji-alese",
+      "positionGroup": "D",
+      "detailedPositions": [
+        "DC",
+        "DL"
+      ],
+      "shirtNumber": 42,
+      "dateOfBirth": "2001-01-17T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Left",
+      "heightCm": 192,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1012928,
+      "providerPlayerId": 1012928,
+      "name": "Robin Roefs",
+      "shortName": "R. Roefs",
+      "slug": "robin-roefs",
+      "positionGroup": "G",
+      "detailedPositions": [
+        "GK"
+      ],
+      "shirtNumber": 22,
+      "dateOfBirth": "2003-01-17T00:00:00+00:00",
+      "nationalityAlpha2": "NL",
+      "nationalityAlpha3": "NLD",
+      "preferredFoot": "Left",
+      "heightCm": 193,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 1099795,
+      "providerPlayerId": 1099795,
+      "name": "Melker Ellborg",
+      "shortName": "M. Ellborg",
+      "slug": "melker-ellborg",
+      "positionGroup": "G",
+      "detailedPositions": [
+        "GK"
+      ],
+      "shirtNumber": 31,
+      "dateOfBirth": "2003-05-22T00:00:00+00:00",
+      "nationalityAlpha2": "SE",
+      "nationalityAlpha3": "SWE",
+      "preferredFoot": "Right",
+      "heightCm": 191,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 958718,
+      "providerPlayerId": 958718,
+      "name": "Anthony Patterson",
+      "shortName": "A. Patterson",
+      "slug": "anthony-patterson",
+      "positionGroup": "G",
+      "detailedPositions": [
+        "GK"
+      ],
+      "shirtNumber": 1,
+      "dateOfBirth": "2000-05-10T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 188,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    },
+    {
+      "id": 95461,
+      "providerPlayerId": 95461,
+      "name": "Simon Moore",
+      "shortName": "S. Moore",
+      "slug": "simon-moore",
+      "positionGroup": "G",
+      "detailedPositions": [
+        "GK"
+      ],
+      "shirtNumber": 21,
+      "dateOfBirth": "1990-05-19T00:00:00+00:00",
+      "nationalityAlpha2": "EN",
+      "nationalityAlpha3": "ENG",
+      "preferredFoot": "Right",
+      "heightCm": 191,
+      "imageUrl": null,
+      "imageStatus": "missing"
+    }
+  ]
+}
