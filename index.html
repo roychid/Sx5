@@ -3,52 +3,187 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#0a0d0b" />
-  <title>SX5</title>
-  <meta name="description" content="SX5 — pick five, battle football." />
+  <meta name="theme-color" content="#070b09" />
+  <title>SX5 — Season Squad</title>
+  <meta name="description" content="Build your SX5 default Premier League season squad and adjust it for each matchweek." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <div class="app-shell">
     <header class="topbar">
-      <button class="brand" data-route="home" aria-label="SX5 home">
-        <span class="brand-mark">SX5</span>
-        <span class="brand-sub">FIVE-A-SIDE FANTASY</span>
-      </button>
-      <button class="icon-btn" id="refreshBtn" aria-label="Refresh data" title="Refresh data">↻</button>
+      <a class="brand" href="#" aria-label="SX5 home">
+        <span class="brand-word"><b>S</b><b class="brand-x">X</b><b>5</b></span>
+        <span class="brand-tag">FANTASY FOOTBALL</span>
+      </a>
+
+      <div class="topbar-actions">
+        <span class="season-chip">Premier League <strong>2026/27</strong></span>
+        <button class="ghost-btn small" id="resetAllBtn" type="button">Reset demo</button>
+      </div>
     </header>
 
-    <main id="app" aria-live="polite">
-      <section class="loading-screen">
-        <div class="spinner"></div>
-        <p>Loading SX5…</p>
+    <main class="page">
+      <section class="intro-row">
+        <div>
+          <p class="eyebrow">SX5 SQUAD</p>
+          <h1>Build your default season squad</h1>
+          <p class="intro-copy">Pick five Premier League players. Your season squad stays as the base, then you can change it for each matchweek.</p>
+        </div>
+
+        <div class="mode-switch" role="tablist" aria-label="Squad mode">
+          <button class="mode-tab active" id="seasonModeBtn" type="button" role="tab" aria-selected="true">Season squad</button>
+          <button class="mode-tab" id="matchweekModeBtn" type="button" role="tab" aria-selected="false">Matchweek 1</button>
+        </div>
+      </section>
+
+      <section class="fixture-card" aria-label="Demo fixture Manchester City versus Arsenal">
+        <div class="fixture-label">DEMO FIXTURE</div>
+        <div class="fixture-team fixture-team-home">
+          <div class="team-badge team-badge-city">MCI</div>
+          <div>
+            <span class="team-code">MCI</span>
+            <strong>Manchester City</strong>
+          </div>
+        </div>
+
+        <div class="fixture-centre">
+          <span class="matchweek-pill">MATCHWEEK 1</span>
+          <div class="versus">VS</div>
+          <span>Sat 22 Aug · 17:30</span>
+          <small>Etihad Stadium</small>
+        </div>
+
+        <div class="fixture-team fixture-team-away">
+          <div>
+            <span class="team-code">ARS</span>
+            <strong>Arsenal</strong>
+          </div>
+          <div class="team-badge team-badge-arsenal">ARS</div>
+        </div>
+      </section>
+
+      <section class="builder-grid">
+        <article class="pitch-card">
+          <div class="pitch-toolbar">
+            <div>
+              <span class="section-kicker" id="builderModeLabel">DEFAULT SEASON SQUAD</span>
+              <h2 id="builderTitle">Your SX5</h2>
+            </div>
+            <div class="selection-counter"><strong id="selectedCount">5</strong><span>/ 5 selected</span></div>
+          </div>
+
+          <div class="formation-stage" id="formationStage">
+            <div class="pitch-glow pitch-glow-one"></div>
+            <div class="pitch-glow pitch-glow-two"></div>
+
+            <svg class="formation-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M50 4 L6 29 L18 61 L25 94 L75 94 L82 61 L94 29 Z" />
+              <path d="M6 29 L94 29" />
+              <path d="M18 61 L82 61" />
+            </svg>
+
+            <div class="slot" data-slot="0" style="--x:50; --y:4"></div>
+            <div class="slot" data-slot="1" style="--x:6; --y:29"></div>
+            <div class="slot" data-slot="2" style="--x:50; --y:29"></div>
+            <div class="slot" data-slot="3" style="--x:94; --y:29"></div>
+            <div class="slot" data-slot="4" style="--x:18; --y:61"></div>
+            <div class="slot" data-slot="5" style="--x:50; --y:61"></div>
+            <div class="slot" data-slot="6" style="--x:82; --y:61"></div>
+            <div class="slot" data-slot="7" style="--x:25; --y:94"></div>
+            <div class="slot" data-slot="8" style="--x:50; --y:94"></div>
+            <div class="slot" data-slot="9" style="--x:75; --y:94"></div>
+          </div>
+
+          <div class="pitch-hint">
+            <span class="hint-dot"></span>
+            Tap any open point to add a player. Drag selected players to move them on desktop.
+          </div>
+        </article>
+
+        <aside class="control-column">
+          <section class="summary-card">
+            <div class="summary-heading">
+              <div>
+                <span class="section-kicker">SQUAD STATUS</span>
+                <h3 id="summaryTitle">Season squad</h3>
+              </div>
+              <span class="status-dot" id="statusDot"></span>
+            </div>
+
+            <div class="summary-list">
+              <div class="summary-row">
+                <span>Players selected</span>
+                <strong id="summarySelected">5 / 5</strong>
+              </div>
+              <div class="summary-row">
+                <span>Clubs represented</span>
+                <strong id="clubCount">2</strong>
+              </div>
+              <div class="summary-row">
+                <span>Matchweek changes</span>
+                <strong id="changeCount">0</strong>
+              </div>
+            </div>
+
+            <button class="primary-btn" id="saveBtn" type="button">Save season squad</button>
+            <button class="secondary-btn" id="generateBtn" type="button">Generate another 5</button>
+            <button class="text-btn" id="restoreBtn" type="button" hidden>Reset Matchweek 1 to season squad</button>
+
+            <p class="save-note" id="saveNote">Your five default players are stored in this browser.</p>
+          </section>
+
+          <section class="how-card">
+            <span class="section-kicker">HOW IT WORKS</span>
+            <div class="how-step">
+              <span>1</span>
+              <p><strong>Set five once.</strong> This becomes your default squad for the season.</p>
+            </div>
+            <div class="how-step">
+              <span>2</span>
+              <p><strong>Use any placement.</strong> Players can sit on any five points in the SX5 shape.</p>
+            </div>
+            <div class="how-step">
+              <span>3</span>
+              <p><strong>Adjust by matchweek.</strong> Matchweek edits are saved separately from the season squad.</p>
+            </div>
+          </section>
+        </aside>
       </section>
     </main>
-
-    <nav class="bottom-nav" aria-label="SX5 navigation">
-      <button class="nav-item active" data-route="home">
-        <span class="nav-icon">⌂</span><span>Home</span>
-      </button>
-      <button class="nav-item" data-route="league">
-        <span class="nav-icon">◆</span><span>League</span>
-      </button>
-      <button class="nav-item" data-route="how">
-        <span class="nav-icon">5</span><span>How to play</span>
-      </button>
-    </nav>
   </div>
 
-  <dialog id="teamDialog" class="team-dialog">
-    <div class="dialog-shell">
+  <dialog id="playerDialog" class="player-dialog">
+    <div class="dialog-card">
       <header class="dialog-header">
-        <button id="closeTeamDialog" class="icon-btn" aria-label="Close">←</button>
-        <div id="dialogTitle"></div>
-        <span class="dialog-spacer"></span>
+        <div>
+          <span class="section-kicker">PLAYER PICKER</span>
+          <h2 id="dialogHeading">Choose player</h2>
+        </div>
+        <button class="dialog-close" id="closeDialogBtn" type="button" aria-label="Close player picker">×</button>
       </header>
-      <div id="teamDialogBody" class="dialog-body"></div>
+
+      <div class="picker-controls">
+        <label class="field-label">
+          <span>Club</span>
+          <select id="teamSelect"></select>
+        </label>
+        <label class="field-label search-field">
+          <span>Search</span>
+          <input id="playerSearch" type="search" placeholder="Player name…" autocomplete="off" />
+        </label>
+      </div>
+
+      <div class="picker-meta" id="pickerMeta">Loading squad…</div>
+      <div class="player-list" id="playerList"></div>
+
+      <footer class="dialog-footer">
+        <button class="danger-text-btn" id="removePlayerBtn" type="button" hidden>Remove from squad</button>
+        <button class="ghost-btn" id="cancelDialogBtn" type="button">Cancel</button>
+      </footer>
     </div>
   </dialog>
 
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="./app.js" defer></script>
 </body>
 </html>
